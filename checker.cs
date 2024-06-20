@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
-
+namespace paradigm_shift_csharp
+{
 class Checker
 {
     static bool batteryIsOk(float temperature, float soc, float chargeRate) {
@@ -35,4 +36,6 @@ class Checker
         Console.WriteLine("All ok");
         return 0;
     }
+    
+}
 }
