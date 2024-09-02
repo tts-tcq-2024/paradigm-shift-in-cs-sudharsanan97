@@ -4,7 +4,7 @@ namespace paradigm_shift_csharp
 {
     class Checker
     {
-        static bool batteryIsOk(float temp, float soc, float CRate)
+        static bool batteryIsOk(float temp, float soc, float cRate)
         {
             return istempOk(temp) && isSocOk(soc) && isCRateOk(cRate);
         }
